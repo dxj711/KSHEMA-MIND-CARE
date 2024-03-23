@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Kshema Mind Care</title>
+    <link rel="icon" type="image/png" href="images/mainlogo.png">
+    <link rel="stylesheet" href="style-gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/mainlogo.png" alt="logo" class="logo1" ></a>
+            <a href="index.html"><img src="images/logo4 - Copy.png" alt="logo" class="logoo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                    <li><a href="donate.html">DONATE</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </section>
+
+    <section class="course">
+        <h1>GALLERY</h1>
+        <p>Explore The Beauty of Kshema.</p>
+
+        <div class="row">
+            <gal>
+                <img src="images/pic1.jpg" alt="">
+                <img src="images/pic2.jpg" alt="">
+                <img src="images/pic3.jpg" alt="">
+                <img src="images/pic4.jpg" alt="">
+                <img src="images/pic5.jpg" alt="">
+                <img src="images/pic6.jpg" alt="">
+                <img src="images/pic7.jpg" alt="">
+                <img src="images/pic12.jpg" alt="">
+                <img src="images/pic8.jpg" alt="">
+                <img src="images/pic9.jpg" alt="">
+                <img src="images/pic10.jpg" alt="">
+                <img src="images/pic11.jpg" alt="">
+            </gal>
+            
+
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <g4>About Us</g4>
+        <p style="text-align: center; margin-left: 10%; margin-right: 10%;">Kshema Mind Care offers holistic treatment for mental health, addiction, and behavioral issues. 
+            With psychotherapy, counseling, detox, and relaxation therapy, it focuses on personalized care. Through empowerment activities and recreation, it promotes well-being.
+            Committed to restoring mental health and balance in a peaceful environment.
+         </p>
+
+         <div class="icons">
+            <a href="https://www.facebook.com/kshemapsy/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.youtube.com/@Kshemamindcare"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/kshema_mind_care/"><i class="fa fa-instagram"></i></a>
+            <a href="https://in.linkedin.com/in/kshema-mind-care-helping-hand-to-help-a80a20aa"><i class="fa fa-linkedin"></i></a>
+         </div>
+         
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu()
+        {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu()
+        {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+</html>
